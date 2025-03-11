@@ -44,8 +44,8 @@ public class AnimalGist {
 
 
         // ❌ The following will NOT work because the reference type is Animal
-        // myAnimal1.fetchBall();  // ERROR!
-        // myAnimal2.scratchFurniture();  // ERROR!
+        // myAnimal1.fetchBall();  ERROR!
+        // myAnimal2.scratchFurniture();  ERROR!
 
         System.out.println("-----------------------------");
 
