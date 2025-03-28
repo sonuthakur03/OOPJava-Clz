@@ -1,19 +1,19 @@
-class AnimalIn {
+class AnimalSIn {
     void sound(){
         System.out.println("Animal makes a sound");
     }
 }
 
-class Dog2 extends AnimalIn{
+class DogSIn extends AnimalSIn{
     void sound(){
         super.sound();
         System.out.println("Dog Barks");
     }
 }
 
-public class Inheritance{
+public class SingleInheritance{
     public static void main(String[] args){
-        Dog2 myDog = new Dog2();
+        DogSIn myDog = new DogSIn();
         myDog.sound();
     }
 }
